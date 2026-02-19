@@ -1,0 +1,21 @@
+body{
+    background-color:beige;
+    color: black;
+
+    img{
+        width: auto;
+        height:auto;
+        margin: auto;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+    td{
+        border: 2px solid black;
+    }
+    table{
+        margin: auto;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,76 @@
+/* this is universal selector */
+/* applies to all the classes elements and everywhere */
+* {
+    background-color: antiquewhite;
+    color: rebeccapurple;
+}
+
+/* child selector */
+/* this will only apply when the  paragraph tag is inside the div*/
+
+div p {
+    background-color: wheat;
+    color: green;
+}
+
+.one{
+    box-sizing: border-box;
+    /* doing this reduces the content area so as to fit the border padding and the content in the height of 200 px */
+    height: 200px;
+    margin: 20px;
+    border:5px solid black;
+    font-size: large;
+    text-transform: capitalize; /*  this transforms all the text in 'one' class to capitalized text  */
+    text-transform: lowercase;
+
+    /* this aligns the text to the centre */
+    text-align: center;
+
+    /* this will underline the whole text in class one */
+    text-decoration: underline;
+
+    /* text-decoration: wavy; this is wrong because wavy is not stand alone*/
+    text-decoration: underline wavy;
+
+    /* to set the thickness of the text */
+    text-decoration-thickness: 1px;
+    
+    text-overflow: ellipsis;
+    /* font-size: large; */
+}
+
+.two{
+    margin: 30px;
+    border:5px solid green
+}
+
+/* clearly in the result the margin 30px will be applied incase of maring collapse */
+
+div>p {
+    background-color: yellow;
+    color: rgb(2, 137, 137);
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+
+.red {
+    background-color: rgb(226, 192, 192);
+    color: red;
+}
+
+#prince {
+    background-color: mediumseagreen;
+}
+
+article {
+    background-color: red;
+}
+a:visited{
+    color: yellowgreen;
+}
+a:link{
+    color: aqua;
+}
+a:hover{
+    color: palevioletred;
+}

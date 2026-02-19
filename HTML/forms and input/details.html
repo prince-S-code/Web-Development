@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+</head>
+<body>
+
+    <h1>Personal Data Form</h1>
+
+    <form method="post">
+
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div>
+            <p>Enter your gender:</p>
+
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+        <div>
+            <label for="class">Class:</label>
+            <select name="class" id="class" required>
+                <option value="">Select Class</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" placeholder="Enter your city" required>
+        </div>
+
+        <div>
+            <label for="pin">Pin Code:</label>
+            <input type="text" id="pin" name="pin" placeholder="Enter your pin code" pattern="[0-9]{6}" required>
+        </div>
+        <div>
+            <button style="background-color: aqua; border
+            : 2px solid rgb(39, 45, 167);">Submit</button>
+        </div>
+
+        <!-- to embed a video or audio -->
+        <!-- loop makes it play in loop -->
+        <!-- due to autoplay when the wensite opens the video or audio automatically plays -->
+        <!-- preload specifies how much of the content to load refer to diff preload types -->
+         
+        <audio src="sample name" controls autoplay loop ></audio>
+
+        <!-- <video src="sample_video_name" controls preload="auto" autoplay ></video> -->
+
+        <!-- embedding a site in the other -->
+        <!-- <iframe width="500" src="http://127.0.0.1:3000/forms and input/details.html?serverWindowId=7f8ad773-35ec-4f67-a196-cc71b626dc1e" frameborder="0"></iframe> -->
+
+
+
+    </form>
+
+</body>
+</html>
